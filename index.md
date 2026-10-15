@@ -4,7 +4,7 @@ title: Corsair Cast — Privacy Policy
 
 # Corsair Cast — Privacy Policy
 
-*Last updated: 6 October 2026*
+*Last updated: 15 October 2026*
 
 Corsair Cast is a podcast player made by one independent developer. It has no accounts, no analytics, no ads
 and no server of its own. **The developer does not collect, see or sell any data about you.**
@@ -27,6 +27,15 @@ account** (Apple's CloudKit). The developer cannot read it. Apple's handling of 
 - **Apple's iTunes Search**, when you search for a podcast or the app looks up missing artwork.
 - **Apple**, for Siri requests, notifications and in-app purchases. Purchases are handled entirely by the App
   Store; the app never sees your payment details.
+
+## Created chapters (Premium)
+
+When you ask Corsair Cast to create chapters for an episode, it sends that episode's transcript and a list of
+topics from its show notes to **Anthropic's Claude**, which returns the chapters. Nothing else is sent — no name,
+account, contact details or listening history — and the request isn't linked to you. Anthropic doesn't use this
+data to train its models and deletes it after a short retention period; see
+[Anthropic's Privacy Policy](https://www.anthropic.com/legal/privacy). Nothing is sent unless you have Premium and
+choose to create chapters.
 
 ## Send Feedback
 
